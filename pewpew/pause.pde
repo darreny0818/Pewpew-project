@@ -44,6 +44,7 @@ void pauseClicks () {
 
   if (mouseX > 150 && mouseX < 350 && mouseY > 470 && mouseY < 530) {
     mode = INTRO;
+    setup();
 
   }
  

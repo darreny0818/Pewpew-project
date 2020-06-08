@@ -14,6 +14,11 @@ void game() {
     }
   }
   
+  //enemy spawn code
+  if (frameCount % 60 == 0) {   //modulous
+    objects.add(new Enemy());
+  }
+  
   //pausebutton
   strokeWeight(1);
   stroke(0);
